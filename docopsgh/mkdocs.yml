@@ -1,0 +1,43 @@
+site_name: Документация на продукт
+
+theme:
+   name: material
+   features:
+     - navigation.instant
+     - navigation.tracking
+     - navigation.tabs
+     - navigation.tabs.sticky
+     - navigation.indexes
+     - navigation.top
+   language: ru
+   logo: assets/logo.png
+   favicon: assets/logo_fav.png
+   palette:
+     - scheme: default
+       toggle:
+         icon: material/brightness-7
+         name: Ночь
+     - scheme: slate
+       toggle:
+         icon: material/brightness-4
+         name: День
+
+
+plugins: 
+  - search:
+      lang:
+        - en
+        - ru
+
+
+nav:
+  - Руководство по установке:
+    - ig/index.md
+    - Создание репозитория:
+      - ig/repo__creation__gh.md
+      - ig/repo__creation__gl.md
+    - ig/mkdocs__installation.md
+  - Руководство администратора:
+    - ag/index.md
+    - ag/setup.md
+    - ag/pub__setup.md
