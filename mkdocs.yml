@@ -14,6 +14,7 @@ nav:
 
 theme:
   name: material
+  language: ru
   logo: assets/logo.png
   favicon: assets/logo_fav.png
   palette: 
@@ -25,15 +26,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: День
+
   features:
     - navigation.instant # ускорение загрузки (SPA)
     - navigation.tracking # динамический URL страницы 
-    - navigation.tabs # верхний уровень заголовков в горизонтальное меню
+    - navigation.tabs # перенос названий документов в горизонтальное меню
     - navigation.tabs.sticky # горизонтальное меню не скрывается при прокрутке
     - navigation.indexes # главные страницы разделов не отображаются в меню
     - navigation.top # вкл. кнопку возврата наверх
-    - content.action.edit # вкл. редактирование страницы
-
 
 plugins: 
   - search:
