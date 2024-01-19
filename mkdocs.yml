@@ -1,37 +1,6 @@
 site_name: Документация на продукт
 
-theme:
-   name: material
-   features:
-     - navigation.instant
-     - navigation.tracking
-     - navigation.tabs
-     - navigation.tabs.sticky
-     - navigation.indexes
-     - navigation.top
-   language: ru
-   logo: assets/logo.png
-   favicon: assets/logo_fav.png
-   palette:
-     - scheme: default
-       toggle:
-         icon: material/brightness-7
-         name: Ночь
-     - scheme: slate
-       toggle:
-         icon: material/brightness-4
-         name: День
-
-
-plugins: 
-  - search:
-      lang:
-        - en
-        - ru
-
-
 nav:
-  - index.md
   - Руководство по установке:
     - ig/index.md
     - Создание репозитория:
@@ -42,3 +11,34 @@ nav:
     - ag/index.md
     - ag/setup.md
     - ag/pub__setup.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: ru
+  logo: assets/logo.png
+  favicon: assets/logo_fav.png
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Ночь
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: День
+  features:
+    - navigation.instant # ускорение загрузки (SPA)
+    - navigation.tracking # динамический URL страницы 
+    - navigation.tabs # верхний уровень заголовков в горизонтальное меню
+    - navigation.tabs.sticky # горизонтальное меню не скрывается при прокрутке
+    - navigation.indexes # главные страницы разделов не отображаются в меню
+    - navigation.top # вкл. кнопку возврата наверх
+    - content.action.edit # вкл. редактирование страницы
+
+
+plugins: 
+  - search:
+      lang:
+        - en
+        - ru
