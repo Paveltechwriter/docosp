@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Предложения по результатам вычитки документации Deckhouse
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
