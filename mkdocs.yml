@@ -1,16 +1,10 @@
 site_name: Предложения по документации Deckhouse
 
 nav:
-  - Руководство по установке:
-    - ig/index.md
-    - Создание репозитория:
-      - ig/repo__creation__gh.md
-      - ig/repo__creation__gl.md
-    - ig/mkdocs__installation.md
-  - Руководство администратора:
-    - ag/index.md
-    - ag/setup.md
-    - ag/pub__setup.md
+  - Предложения по статьям в разделах:
+    - offers/index.md
+    - Детализация предложений:
+      - offers/offers__cusotmization.md
 
 theme:
   name: material
